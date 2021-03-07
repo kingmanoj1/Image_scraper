@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Review Scraper</title>
+    <style>
+    .review-scraper{
+        text-align: center;
+        margin-top: 160px;
+    }
+    body{
+        background-color:cornflowerblue;
+    }
+    input{
+        line-height: 40px;
+        width:250px;
+        font-size: medium;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    button{
+        background-color: darkblue;
+        height: 40px;
+        width: 120px;
+        font-size: 22px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+<div class="review-scraper">
+<form method="post" action={% url "search_and_download" %}>{% csrf_token %}
+    <input name="item_name" />
+    <button>Search</button>
+</form>
+</div>
+</body>
+</html>

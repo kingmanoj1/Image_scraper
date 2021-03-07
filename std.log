@@ -1,0 +1,24 @@
+django.utils.autoreload - INFO - /run/media/mbhatt/manoj/inuron_ml/imgscraper/gimgscrape/views.py changed, reloading.
+root - WARNING - Image Scraper Started
+django.request - ERROR - Internal Server Error: /downloaded/
+Traceback (most recent call last):
+  File "/home/mbhatt/anaconda3/envs/scraper/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/mbhatt/anaconda3/envs/scraper/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/run/media/mbhatt/manoj/inuron_ml/imgscraper/gimgscrape/views.py", line 101, in search_and_download
+    driver_path = 'chromedriver'
+  File "/run/media/mbhatt/manoj/inuron_ml/imgscraper/gimgscrape/views.py", line 101, in search_and_download
+    driver_path = 'chromedriver'
+  File "/home/mbhatt/anaconda3/envs/scraper/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/mbhatt/anaconda3/envs/scraper/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+django.utils.autoreload - INFO - /run/media/mbhatt/manoj/inuron_ml/imgscraper/gimgscrape/views.py changed, reloading.
+root - WARNING - Image Scraper Started
+root - WARNING - Image Scraper Started
+root - WARNING - Found: 100 search results. Extracting links from 0:100
+root - WARNING - Found: 10 image links, done!
+django.utils.autoreload - INFO - /run/media/mbhatt/manoj/inuron_ml/imgscraper/gimgscrape/views.py changed, reloading.
+django.utils.autoreload - INFO - /run/media/mbhatt/manoj/inuron_ml/imgscraper/gimgscrape/views.py changed, reloading.
